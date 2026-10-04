@@ -1,5 +1,9 @@
 # lockbit-rescue
 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-yellow?style=for-the-badge&logo=buy-me-a-coffee)](https://github.com/sponsors/MarcoDeliaBot)
+
+Optional support for MarcoDeliaBot. This project is free to use.
+
 Recover files encrypted by **LockBit 3.0 ("Black") / CriptomanGizmo** without paying the ransom, by exploiting the documented **keystream-reuse weakness** in its file-encryption routine.
 
 This tool can decrypt a meaningful subset of files for free, **without the attacker's private key**, provided your encrypted batch contains at least one file whose original filename was long enough to act as a *known-plaintext oracle*.
